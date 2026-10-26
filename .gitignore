@@ -1,0 +1,33 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Training logs
+wandb/
+exp/
+runs/
+logs/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
